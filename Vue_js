@@ -1,0 +1,11 @@
+var app7 = new Vue({
+    el:'#app-7',
+    data:{
+        Message:'Hello'
+    },
+methods:{
+    reverseMessage:function(){
+        this.Message=this.Message.split('').reverse().join()
+    }
+}
+})
