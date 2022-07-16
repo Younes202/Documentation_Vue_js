@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  <body>
+  
+   <div id="app_10"  >
+    <button 
+      v-on:click="Display">Display Children's of Hassan  </button>
+    <div v-if="succes">
+      
+    <ol>
+      <component v-for="item in allitems" 
+      v-bind:pro="item"
+      >
+      </component>
+    </div>  
+  </ol>
+  </body>
+<script src="Vue_12.js">
+  </script>
+</head>
+<body>
